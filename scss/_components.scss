@@ -4,40 +4,70 @@
 }
 
 .btn {
+  background-color: unset;
+  padding: 1rem 3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+
   &--header {
   }
 
   &--white {
+    border: 0.2rem solid $color-secondary--light;
+    color: $color-secondary--light;
   }
 }
 
 .heading {
-  &--primary {
+  color: $color-secondary--light;
+  font-family: $font-secondary;
+  font-size: 4.5rem;
+  text-align: center;
+  line-height: 1.1;
+
+  &--dark {
+    color: $color-primary--light;
   }
 
   &--secondary {
-  }
-
-  &--tertiary {
+    color: $color-primary--light;
+    font-size: 2.5rem;
   }
 }
 
 .text {
+  text-align: center;
+  line-height: 1.7;
+
   &--white {
+    color: $color-secondary--light;
   }
 
   &--grey {
+    width: 100%;
+    max-width: 50rem;
+    color: $color-secondary--dark;
   }
 }
 
 .header {
+  padding: 2.5rem 0;
+
   &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__btn {
+    border: 0;
   }
 
   &__hamburger {
   }
 
   &__nav {
+    display: none;
   }
 
   &__list {
@@ -51,6 +81,39 @@
 }
 
 .intro {
+  background-color: $color-primary;
+  margin-bottom: 15rem;
+  position: relative;
+
+  &__wrapper {
+    padding: 9rem 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &::before {
+      content: url('../images/bg-pattern-intro-left-mobile.svg');
+      position: absolute;
+      top: 45.1rem;
+      left: 0;
+    }
+
+    &::after {
+      content: url('../images/bg-pattern-intro-right-mobile.svg');
+      position: absolute;
+      bottom: -18rem;
+      right: 0;
+    }
+  }
+
+  &__heading {
+    line-height: 1.1;
+  }
+
+  &__text {
+    margin: 2rem 0 2.5rem 0;
+  }
+
   &__picture {
   }
 
@@ -64,24 +127,89 @@
 }
 
 .details {
+  position: relative;
+
+  &__heading {
+    padding: 3rem 0 8rem 0;
+
+    &::before {
+      content: '';
+      width: 45%;
+      height: 0.1rem;
+      background-color: $color-secondary--dark;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      display: inline-block;
+    }
+  }
+
   &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
   }
 }
 
 .detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+
   &__icon {
+    margin-bottom: 1rem;
   }
 }
 
 .hero {
+  background-color: $color-primary;
+  background-image: url('../images/bg-pattern-how-we-work-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: contain;
+  margin: 15rem 0;
+  padding: 7rem 3rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  &__heading {
+    font-size: 3.8rem;
+    margin-bottom: 4rem;
+  }
 }
 
 .attribution {
+  padding: 9.5rem 0;
+  background-color: rgba($color-secondary--dark, 0.05);
+  background-image: url('../images/bg-pattern-footer-mobile.svg');
+  background-repeat: no-repeat;
+  background-position: top left;
+
   &__icons-wrapper {
+    border-bottom: 0.1rem solid rgba($color-secondary--dark, 0.2);
+    padding-bottom: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+
+    @media (min-width: 810px) {
+      justify-content: space-between;
+      flex-direction: row;
+    }
   }
 
   &__icon {
     &-list {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
     }
 
     &-item {
@@ -93,24 +221,43 @@
 
   &__nav {
     &-list {
+      padding-top: 4rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+
+      @media (min-width: 1140px) {
+        text-align: left;
+        justify-items: start;
+      }
     }
 
     &-item {
+      color: $color-secondary--dark;
+      font-weight: 700;
+      font-size: 1.4rem;
+      letter-spacing: 0.1rem;
+      text-transform: uppercase;
     }
 
     &-sublist {
+      margin: 3.5rem 0;
     }
 
     &-subitem {
+      margin: 1.5rem 0;
     }
 
     &-sublink {
+      &:link,
+      &:visited {
+        color: $color-primary--light;
+        text-decoration: none;
+      }
     }
   }
 
   font-size: 1rem;
   text-align: center;
-  margin-block: 2rem;
 
   &__link:link,
   &__link:visited {

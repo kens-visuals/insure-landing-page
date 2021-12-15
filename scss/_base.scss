@@ -4,13 +4,8 @@ $color-secondary: hsl(216, 30%, 68%);
 $color-secondary--dark: hsl(273, 4%, 51%);
 $color-secondary--light: hsl(0, 0%, 98%);
 
-// - Family: [DM Serif Display](https://fonts.google.com/specimen/DM+Serif+Display)
-// - Weights: 400
-
-// ### Body
-
-// - Family: [Karla](https://fonts.google.com/specimen/Karla)
-// - Weights: 400, 700
+$font-primary: 'Karla', sans-serif;
+$font-secondary: 'DM Serif Display', serif;
 
 *,
 *::before,
@@ -18,6 +13,11 @@ $color-secondary--light: hsl(0, 0%, 98%);
   margin: 0;
   padding: 0;
   box-sizing: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
 }
 
 img,
@@ -56,6 +56,6 @@ html {
 body {
   min-height: 100vh;
   font-size: 1.6rem;
+  font-family: $font-primary;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
 }
