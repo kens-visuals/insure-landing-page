@@ -1,0 +1,126 @@
+@use './base' as *;
+
+.logo {
+}
+
+.btn {
+  &--header {
+  }
+
+  &--white {
+  }
+}
+
+.heading {
+  &--primary {
+  }
+
+  &--secondary {
+  }
+
+  &--tertiary {
+  }
+}
+
+.text {
+  &--white {
+  }
+
+  &--grey {
+  }
+}
+
+.header {
+  &__wrapper {
+  }
+
+  &__hamburger {
+  }
+
+  &__nav {
+  }
+
+  &__list {
+  }
+
+  &__item {
+  }
+
+  &__link {
+  }
+}
+
+.intro {
+  &__picture {
+  }
+
+  &__img {
+    &--mobile {
+    }
+
+    &--desktop {
+    }
+  }
+}
+
+.details {
+  &__wrapper {
+  }
+}
+
+.detail {
+  &__icon {
+  }
+}
+
+.hero {
+}
+
+.attribution {
+  &__icons-wrapper {
+  }
+
+  &__icon {
+    &-list {
+    }
+
+    &-item {
+    }
+
+    &-link {
+    }
+  }
+
+  &__nav {
+    &-list {
+    }
+
+    &-item {
+    }
+
+    &-sublist {
+    }
+
+    &-subitem {
+    }
+
+    &-sublink {
+    }
+  }
+
+  font-size: 1rem;
+  text-align: center;
+  margin-block: 2rem;
+
+  &__link:link,
+  &__link:visited {
+    text-transform: uppercase;
+    // color: $color-primary--light;
+    transition: all 0.3s;
+  }
+
+  &__link:hover,
+  &__link:active {
+    // color: $color-secondary;
+  }
+}
