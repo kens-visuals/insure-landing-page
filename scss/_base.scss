@@ -58,4 +58,8 @@ body {
   font-size: 1.6rem;
   font-family: $font-primary;
   text-rendering: optimizeSpeed;
+
+  &.body--is-fixed {
+    overflow: hidden;
+  }
 }

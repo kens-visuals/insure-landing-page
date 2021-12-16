@@ -49,6 +49,9 @@ body {
   font-family: "Karla", sans-serif;
   text-rendering: optimizeSpeed;
 }
+body.body--is-fixed {
+  overflow: hidden;
+}
 
 .container {
   width: 88%;
@@ -481,10 +484,6 @@ body {
     text-align: left;
     justify-items: start;
   }
-}
-
-.is-fixed {
-  overflow: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */
