@@ -65,7 +65,14 @@ body {
   font-weight: 700;
 }
 .btn--header {
-  color: #2d2640;
+  color: #fafafa;
+  font-size: 2.3rem;
+}
+@media (min-width: 1140px) {
+  .btn--header {
+    color: #2d2640;
+    font-size: unset;
+  }
 }
 .btn--white {
   color: #fafafa;
@@ -151,6 +158,11 @@ body {
 .header__nav.nav--is-open {
   visibility: visible;
   opacity: 1;
+}
+@media (min-width: 810px) {
+  .header__nav {
+    height: 100vh;
+  }
 }
 @media (min-width: 1140px) {
   .header__nav {
@@ -430,13 +442,13 @@ body {
 }
 
 .attribution {
-  padding: 9.5rem 0;
   background-color: rgba(131, 125, 135, 0.05);
   background-image: url("../images/bg-pattern-footer-mobile.svg");
   background-repeat: no-repeat;
   background-position: top left;
   font-size: 1rem;
   text-align: center;
+  padding: 9.5rem 0;
 }
 @media (min-width: 1140px) {
   .attribution {
@@ -510,6 +522,10 @@ body {
 }
 .attribution__link:hover, .attribution__link:active {
   color: #837d87;
+}
+
+.is-fixed {
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */
