@@ -60,6 +60,6 @@ body {
   text-rendering: optimizeSpeed;
 
   &.body--is-fixed {
-    overflow: hidden;
+    position: fixed;
   }
 }
