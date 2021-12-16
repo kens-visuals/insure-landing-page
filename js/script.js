@@ -6,11 +6,11 @@ hamburgerBtn.addEventListener('click', () => {
     nav.classList.add('nav--is-open');
     document.body.classList.add('is-fixed');
     hamburgerBtn.setAttribute('aria-expanded', true);
-    hamburgerBtn.firstElementChild.src = '../images/icon-close.svg';
+    hamburgerBtn.firstElementChild.src = './images/icon-close.svg';
   } else {
     nav.classList.remove('nav--is-open');
     document.body.classList.remove('is-fixed');
     hamburgerBtn.setAttribute('aria-expanded', false);
-    hamburgerBtn.firstElementChild.src = '../images/icon-hamburger.svg';
+    hamburgerBtn.firstElementChild.src = './images/icon-hamburger.svg';
   }
 });

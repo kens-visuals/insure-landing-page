@@ -1,6 +1,6 @@
-# Frontend Mentor - PROJECT NAME Solution
+# Frontend Mentor - Insure Landing Page Solution
 
-This is a solution to the [PROJECT NAME Challenge on Frontend Mentor](PROJECT LINK).
+This is a solution to the [Insure Landing Page Challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/insure-landing-page-uTU68JV8).
 
 ## Table of contents
 
@@ -21,8 +21,8 @@ This is a solution to the [PROJECT NAME Challenge on Frontend Mentor](PROJECT LI
 
 Users should be able to:
 
-- OBJECTIVE_1
-- OBJECTIVE_2
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
 
 ### Screenshot
 
@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [TO_BE_UPDATED](TO_BE_UPDATED)
+- Live Site URL: [https://kens-visuals.github.io/insure-landing-page/](https://kens-visuals.github.io/insure-landing-page/)
 - Solution URL: [TO_BE_UPDATED](TO_BE_UPDATED)
 
 ## My process
@@ -41,29 +41,12 @@ Users should be able to:
 - SCSS custom properties
 - CSS Flexbox
 - CSS Grid
+- Vanilla JS
 - Mobile-first workflow
 
 ### What I learned
 
 Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
 
 ### Continued development
 
