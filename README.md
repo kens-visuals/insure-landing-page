@@ -41,16 +41,17 @@ Users should be able to:
 - SCSS custom properties
 - CSS Flexbox
 - CSS Grid
+- CSS animations
 - Vanilla JS
 - Mobile-first workflow
 
 ### What I learned
 
-This project helped me to experiment with some new ideas about layouts. I've experimented with containers and how to position them correctly so I can control it from a single place. Another thing that I wanted to accomplish with this project was to add some scroll reveal animations with JS, I was expecting it to be a lot more complex with Vanilla JS. However, it turned out to be a single API called `IntersectionObserver` that will help you to add the stuff. I didn't do anything crazy, but definetly got some practice and had some fun with it. That pretty much was the main goal of this project and I'm glad how it came out.
+This project helped me to experiment with some new ideas about layouts. I've experimented with containers and how to position them correctly, so I can control it from a single place. Another thing that I wanted to accomplish with this project was to add some scroll reveal animations with JS, I was expecting it to be a lot more complex with Vanilla JS. However, it turned out to be a single API called `IntersectionObserver` that will help you to add the stuff. I didn't do anything crazy, but definitely got some practice and had some fun with it. That pretty much was the main goal of this project, and I'm glad how it came out.
 
 ### Continued development
 
-For the future project I'll most definetly implement similar things. Moreover, I'll try to come up with more complex animations and how to achieve them with Vanilla JS. Super excited about this feature and how it can help to make the website come alive.
+For the future project, I'll most certainly implement similar things. Moreover, I'll try to come up with more complex animations and how to achieve them with Vanilla JS. Super excited about this feature and how it can help to make the website come alive.
 
 ### Useful resources
 
