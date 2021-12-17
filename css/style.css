@@ -244,6 +244,7 @@ body.body--is-fixed {
   display: flex;
   align-items: center;
   flex-direction: column;
+  animation: fade-in 1s ease-in-out alternate forwards;
 }
 .intro__heading {
   z-index: 10;
@@ -323,6 +324,7 @@ body.body--is-fixed {
     position: absolute;
     top: 10rem;
     right: 0;
+    animation: fade-down 1s ease-in-out alternate forwards;
   }
 }
 
@@ -366,6 +368,7 @@ body.body--is-fixed {
   justify-content: center;
   flex-direction: column;
   gap: 2rem;
+  transition: all 1s;
 }
 .detail__icon {
   margin-bottom: 2rem;

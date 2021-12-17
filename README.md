@@ -46,16 +46,16 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+This project helped me to experiment with some new ideas about layouts. I've experimented with containers and how to position them correctly so I can control it from a single place. Another thing that I wanted to accomplish with this project was to add some scroll reveal animations with JS, I was expecting it to be a lot more complex with Vanilla JS. However, it turned out to be a single API called `IntersectionObserver` that will help you to add the stuff. I didn't do anything crazy, but definetly got some practice and had some fun with it. That pretty much was the main goal of this project and I'm glad how it came out.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+For the future project I'll most definetly implement similar things. Moreover, I'll try to come up with more complex animations and how to achieve them with Vanilla JS. Super excited about this feature and how it can help to make the website come alive.
 
 ### Useful resources
 
-- [TO_BE_UPDATED]() - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [TO_BE_UPDATED]() - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [IntersectionObserver Tutorial](https://www.youtube.com/watch?v=T8EYosX4NOo) - This is a simple tutorial by Kevin Powell about `IntersectionObserver`.
+- [IntersectionObserver API Docs](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API) - As you guessed from the name this the link to the MDN Docs `forIntersectionObserver API`.
 
 ## Author
 
