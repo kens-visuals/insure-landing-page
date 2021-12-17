@@ -3,6 +3,7 @@ const hamburgerBtn = document.querySelector('.js-hamburger-btn');
 const details = document.querySelectorAll('.js-detail');
 const sections = document.querySelectorAll('.js-section');
 
+// Section observer
 const observerOptions = {
   threshold: 0.1,
   rootMargin: '0px 0px -400px 0px',
@@ -28,6 +29,7 @@ const observer = new IntersectionObserver(appearOnScroll, observerOptions);
 
 sections.forEach((section) => observer.observe(section));
 
+// Event callback
 const toggleMenu = function () {
   if (!nav.classList.contains('nav--is-open')) {
     nav.classList.add('nav--is-open');

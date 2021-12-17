@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Live Site URL: [https://kens-visuals.github.io/insure-landing-page/](https://kens-visuals.github.io/insure-landing-page/)
-- Solution URL: [TO_BE_UPDATED](TO_BE_UPDATED)
+- Solution URL: [https://www.frontendmentor.io/solutions/insure-landing-page-with-scss-bem-css-animations-and-vanilla-js-tlFb95NjO](https://www.frontendmentor.io/solutions/insure-landing-page-with-scss-bem-css-animations-and-vanilla-js-tlFb95NjO)
 
 ## My process
 
@@ -47,7 +47,7 @@ Users should be able to:
 
 ### What I learned
 
-This project helped me to experiment with some new ideas about layouts. I've experimented with containers and how to position them correctly, so I can control it from a single place. Another thing that I wanted to accomplish with this project was to add some scroll reveal animations with JS, I was expecting it to be a lot more complex with Vanilla JS. However, it turned out to be a single API called `IntersectionObserver` that will help you to add the stuff. I didn't do anything crazy, but definitely got some practice and had some fun with it. That pretty much was the main goal of this project, and I'm glad how it came out.
+This project helped me to experiment with some new ideas about layouts. I've experimented with containers and how to position them correctly, so I can control it from a single place. Another thing that I wanted to accomplish with this project was to add some scroll-reveal animations with JS, I was expecting it to be a lot more complex with Vanilla JS. However, it turned out to be a single API called `IntersectionObserver` that will help you to add the stuff. I didn't do anything crazy, but definitely got some practice and had some fun with it. That pretty much was the main goal of this project, and I'm glad how it came out.
 
 ### Continued development
 

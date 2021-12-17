@@ -363,12 +363,18 @@ body.body--is-fixed {
 }
 
 .detail {
+  opacity: 0;
+  visibility: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 2rem;
   transition: all 1s;
+}
+.detail.detail--is-visible {
+  opacity: 1;
+  visibility: visible;
 }
 .detail__icon {
   margin-bottom: 2rem;
@@ -406,6 +412,20 @@ body.body--is-fixed {
   .hero__heading {
     margin-bottom: 0;
   }
+}
+
+.details,
+.hero {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-5rem);
+  transition: all 0.7s;
+}
+.details.section--is-visible,
+.hero.section--is-visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }
 
 .attribution {
@@ -486,6 +506,25 @@ body.body--is-fixed {
   .attribution__nav-list {
     text-align: left;
     justify-items: start;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    margin-top: -10rem;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+@keyframes fade-down {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 10rem;
   }
 }
 

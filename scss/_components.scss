@@ -363,9 +363,8 @@
 }
 
 .detail {
-  // NOTE:
-  // opacity: 0;
-  // visibility: hidden;
+  opacity: 0;
+  visibility: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -373,11 +372,10 @@
   gap: 2rem;
   transition: all 1s;
 
-  // NOTE:
-  // &.detail--is-visible {
-  //   opacity: 1;
-  //   visibility: visible;
-  // }
+  &.detail--is-visible {
+    opacity: 1;
+    visibility: visible;
+  }
 
   &__icon {
     margin-bottom: 2rem;
@@ -418,20 +416,19 @@
   }
 }
 
-// NOTE:
-// .details,
-// .hero {
-//   opacity: 0;
-//   visibility: hidden;
-//   transform: translateY(-5rem);
-//   transition: all 0.7s;
+.details,
+.hero {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-5rem);
+  transition: all 0.7s;
 
-//   &.section--is-visible {
-//     opacity: 1;
-//     visibility: visible;
-//     transform: translateY(0);
-//   }
-// }
+  &.section--is-visible {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
 
 .attribution {
   background-color: rgba($color-secondary--dark, 0.05);
@@ -538,25 +535,24 @@
   }
 }
 
-// NOTE:
-// @keyframes fade-in {
-//   0% {
-//     opacity: 0;
-//     margin-top: -10rem;
-//   }
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    margin-top: -10rem;
+  }
 
-//   100% {
-//     opacity: 1;
-//     margin-top: 0;
-//   }
-// }
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
 
-// @keyframes fade-down {
-//   0% {
-//     top: 0;
-//   }
+@keyframes fade-down {
+  0% {
+    top: 0;
+  }
 
-//   100% {
-//     top: 10rem;
-//   }
-// }
+  100% {
+    top: 10rem;
+  }
+}
