@@ -288,7 +288,7 @@ body.body--is-fixed {
 }
 @media (min-width: 1140px) {
   .intro {
-    min-height: 65vh;
+    min-height: 65rem;
     margin-bottom: 32rem;
   }
   .intro::before {
